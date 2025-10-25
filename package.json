@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "docco": "^0.9.1",
+    "gh-pages": "^6.2.0"
+  },
+  "scripts": {
+    "build": "docco index.js -l classic",
+    "upload-gh-pages": "gh-pages -d docs",
+    "watch": "watchexec -w index.js yarn build"
+  },
+  "volta": {
+    "node": "22.21.0",
+    "npm": "11.6.2"
+  }
+}
