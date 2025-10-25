@@ -6,7 +6,7 @@
   "scripts": {
     "build": "docco index.js -l classic",
     "upload-gh-pages": "gh-pages -d docs",
-    "watch": "watchexec -w index.js yarn build"
+    "watch": "watchexec -w index.js npm run build"
   },
   "volta": {
     "node": "22.21.0",
